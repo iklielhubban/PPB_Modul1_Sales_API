@@ -1,0 +1,23 @@
+$kind: http-request
+url: http://localhost:3000/api/products
+method: POST
+body:
+  type: json
+  content: "{                                       \r
+
+    \      \"sku\": \"PRD-002\",                     \r
+
+    \      \"name\": \"Laptop ASUS VivoBook\",       \r
+
+    \      \"description\": \"Laptop tipis dan ringan untuk produktivitas\",              \r
+
+    \      \"category_id\":\"c9bdce5f-5d6e-4856-a79b-32189a953335\",\r
+
+    \      \"price\": 8500000,                     \r
+
+    \      \"stock\": 25                           \r
+
+    \    }                     \r
+
+    \r\n"
+order: 4396302285802459
